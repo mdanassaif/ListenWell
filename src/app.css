@@ -37,10 +37,7 @@ nav {
   gap: 12px;
 }
 
-.logo img {
-  height: 32px;
-  width: auto;
-}
+ 
 
 .logo span {
   font-weight: 600;
@@ -227,9 +224,7 @@ button[type="button"] {
     padding: 15px 20px;
 }
 
-.logo img {
-    height: 24px;
-}
+ 
 
 .logo span {
     font-size: 20px;

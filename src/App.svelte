@@ -1,6 +1,10 @@
 <script>
+ 
+
   import emailjs from "@emailjs/browser";
-  import { plans } from "./data";
+import { plans } from "./data";
+
+ 
 
   let selectedPlan = null;
   let showBookingForm = false;
@@ -10,10 +14,10 @@
   let submitted = false;
   let loading = false;
   let errorMessage = "";
-
   const EMAIL_SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID;
-  const EMAIL_TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
-  const EMAIL_PUBLIC_KEY = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
+const EMAIL_TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+const EMAIL_PUBLIC_KEY = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
+  
 
   function selectPlan(plan) {
     selectedPlan = plan;
@@ -64,7 +68,7 @@
 <main>
   <nav>
     <div class="logo">
-      <img src="/listenwell.svg" alt="ListenWell Logo" />
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 21c.757.667 1.424 1 2 1c2 0 3-1 3-3c0-1.333.667-2.667 2-4c1.267-1.267 2-3.067 2-5a7 7 0 0 0-14 0m11 0a4 4 0 1 0-8 0M3 20l5-6l1 4l5-6"/></svg>
       <span>ListenWell</span>
     </div>
   </nav>
