@@ -1,45 +1,32 @@
 export const plans = [
-    {
-      title: "Basic Support",
-      icon: "👂",
-      price: "$10",
-      period: "per session",
-      features: [
-        "30-minute session",
-        "Active listening",
-        "No advice - just support",
-        "100% private"
-      ],
-      color: "#4F46E5"
-    },
-    {
-      title: "Friendly Support",
-      icon: "🤝",
-      price: "$20",
-      period: "per session",
-      features: [
-        "45-minute session",
-        "Active listening",
-        "Emotional support",
-        "Friendly chat",
-        "100% private"
-      ],
-      color: "#7C3AED",
-      popular: true
-    },
-    {
-      title: "Premium Support",
-      icon: "⭐",
-      price: "$30",
-      period: "per session",
-      features: [
-        "60-minute session",
-        "Active listening",
-        "Emotional support",
-        "Friendly advice",
-        "Follow-up message",
-        "100% private"
-      ],
-      color: "#9333EA"
-    }
-  ];
+  {
+    title: "Free Support",
+    price: "Free",
+    period: "forever",
+    description: "Basic listening support for everyday needs",
+    type: "text",
+    features: [
+      "30-minute text chat sessions",
+      "Basic emotional support",
+      "Available 24/7",
+      "Anonymous chat",
+      "No credit card required"
+    ]
+  },
+  {
+    title: "Premium Support",
+    price: "$49",
+    period: "/month",
+    description: "Enhanced support with video sessions and priority access",
+    type: "video",
+    popular: true,
+    features: [
+      "60-minute video sessions",
+      "Priority scheduling",
+      "Dedicated listener",
+      "Unlimited text support",
+      "Session recordings",
+      "Progress tracking"
+    ]
+  }
+];
